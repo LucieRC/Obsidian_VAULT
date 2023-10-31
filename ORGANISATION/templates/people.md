@@ -1,0 +1,9 @@
+---
+birth_year: 
+death_year: 
+country_of_nationality: 
+main_position: 
+institution: 
+met_for: 
+importance:
+---
