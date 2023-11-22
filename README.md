@@ -5,3 +5,16 @@ This repository is not yet synched to my VAULT, hence the content might be sligh
 Please visit the ORGANISATION/templates folder to find all the templates of my different note types. 
 
 Feel free to reach out if you have any question regarding my organisation.
+
+## My pluggins:
+- Calendar
+- Commander
+- Dataview
+- Excalidraw
+- Iconize
+- MAKE.md
+- Periodic Notes
+- QuickAdd
+- Recent Files
+- Templater
+- Zotero Integration
