@@ -3,7 +3,7 @@ tags:
 doi: "{{DOI}}"
 citekey: "{{citekey}}"
 read: 
-authors: "{{authors}}"
+authors: [{% for c in creators %} '[[{{c.firstName}} {{c.lastName}}]]', {% endfor %}]
 date: '{{date.format("YYYY")}}'
 aliases:
   - "{{shortTitle}}"
@@ -20,6 +20,9 @@ main_lab:
 
 > [!PDF]
 > {{pdfLink}}
+
+> [!Abstract]
+> {{abstract}}
 
 {% persist "notes" %}
 {% if isFirstImport %}
