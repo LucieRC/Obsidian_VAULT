@@ -1,0 +1,8 @@
+```dataview 
+table file.name as "Seminar", people as "Speakers"
+from "SOURCES/Seminaries"
+where file.name != "+ INDEX"
+sort file.mtime desc
+limit 15
+```
+
